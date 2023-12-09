@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: 1580px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.form-container {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    border: 2px solid white;
+    border-style: dashed;
+    background: transparent;
+}
+h2{
+    font-size: 4vh;
+    color: rgb(0, 0, 0);
+}
+
+input[type="text"],
+input[type="password"]
+{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+}
+input[type="Email-Id"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+}
+
+
+input[type="submit"] {
+    width: 100px;
+    background: rgb(212, 115, 115);
+    color: #05161A;
+    font-size: 2vh;
+    padding: 14px 20px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+}
+label {
+    width: 10px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 2vh;
+}
+::placeholder{
+    background: transparent;
+    
+}
+
+.form-container form {
+   
+    padding: 20px;
+}
+footer{
+    margin: 50px auto 0;
+}

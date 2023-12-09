@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-repeat: no-repeat;
+            background-size: 1580px;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        button {
+            margin: 9px 9px;
+            color: black;
+            background: rgb(255, 40, 2);
+            padding: 5px 15px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        button:hover {
+            background: white;
+            color: red;
+        }
+
+        .p {
+            width: fit-content;
+            margin: 200px auto 100px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            text-decoration: dotted;
+            background: transparent;
+        }
+
+        h1 {
+            font-size: 10vh;
+            background: transparent;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <div class="p">
+        <h1>logged In</h1>
+        <button onclick="logout()">LogOut</button>
+    </div>
+
+    </div>
+    <script>
+        function logout() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+
+</html>
